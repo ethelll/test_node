@@ -8,7 +8,7 @@ app.get('/', async(req, res) => {
     .then(cres => cres.text())
     .then(data => {
         res.json(data);
-    });
+    }); 
 });
 
 app.listen(3030, () => {
